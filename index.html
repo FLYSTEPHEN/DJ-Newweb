@@ -25,15 +25,15 @@
 
 <body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
  
-  <nav class="navbar navbar-expand-md navbar-dark pb_navbar pb_scrolled-light" id="pb-navbar">
+  <nav class="navbar navbar-expand-lg navbar-dark pb_navbar pb_scrolled-light" id="pb-navbar">
     <div class="container">
 <!--       <a class="navbar-brand" href="index.html">Law</a> -->
-      <button class="navbar-toggler" type="button" data-toggle="buttons" data-target="#probootstrap-navbar"
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#probootstrap-navbar"
         aria-controls="probootstrap-navbar" aria-expanded="false" aria-label="Toggle navigation">
         <span><i class="ion-navicon"></i></span>
       </button>
       <div class="collapse navbar-collapse" id="probootstrap-navbar">
-        <ul class="navbar-nav ml-auto">
+        <ul class="nav justify-content-center">
           <li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li> 
           <li class="nav-item"><a class="nav-link" href="#section-intro">Intro</a></li>
           <li class="nav-item"><a class="nav-link" href="#section-programming">Programming</a></li>
@@ -47,14 +47,15 @@
   </nav>
   <!-- END nav -->
   
-  <section class="pb_cover_v1 text-left cover-bg-black cover-bg-opacity-4" style="background-image: url(assets/images/0-titlegif.gif)"
+  
+  <section class="pb_cover_v1 text-center cover-bg-black cover-bg-opacity-4" style="background-image: url(assets/images/0-titlegif.gif)"
     id="section-home">
     <div class="container">
       <div class="row align-items-center justify-content-end">
         <div class="col-md-12  order-md-1">
-          <h2 class="heading mb-3">Survival Guide for Data Journalists</h2>
-          <div class="sub-heading">
-            <p>Data Journalism's past and Futßure</p>
+          <h2 class="heading mb-3">Survival Guide for Data Journalists</h2><br>
+          <div class="sub-heading" >
+            <p>Data Journalism's past and Future</p>
 <!--
             <p><a href="#section-contact" role="button" class="btn smoothscroll pb_outline-light btn-xl pb_font-13 p-4 rounded-0 pb_letter-spacing-2">Free
                 Consultation</a></p>
@@ -66,22 +67,20 @@
   </section>
   <!-- END section -->
 
-  <section class="pb_section bg-light" data-section="Intro" id="section-intro">
+  <section class="pb_section bg-light" id="section-intro">
       <div class="container">
         <div class="row justify-content-md-center mb-5">
           <div class="col-lg-10">
              <h2 class="mt-0 heading-border-top font-weight-normal text-center ">
             	The Rise of Data Journalists
-             </h2>
+             </h2><br>
            	 <p>According to Google's Data journalist open book in 2017, data journalism represents stories that are enriched by data, stories that use data to investigate and stories that explain data. Since 2009, the google trends shows that of the heat of the concept of data journalism has been significantly increasing.</p>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-7">
-            <div class="images right">
-              <img class=" img-fluid" src="assets/images/linechart.png" >
-              <!-- <img class="img2" src="assets/images/people1.jpg" alt="free Template by uicookies.com">
-            -->
+			 <div class="video-warp col-md-12">
+             <iframe width="100%" height="350" src="https://www.youtube.com/embed/rtqeTXuK0N0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="float:left"></iframe>
             </div>
           </div>
           <div class="col-lg-5 pl-md-5 pl-sm-0">
@@ -93,9 +92,7 @@
                   <br>
                   <br>
 				</div>
-              <p> Turkey start off from a low point, and have a rapid increase in year 2012, then it fell back. At year 2016, there is a major grow in the number of Turkey's imprisoned journalists, that is when the big breakdown happened.<br>
-                China constantly kept stable and high-level performance in its numbers of journalists imprisoned from 2008 to 2016 and thus still stayed on top one.
-                </p>
+              	<p> However, what is a so-called data journalist? What should the data journalists be like in foreseeable future? <br> By digging deep into Global Data Journalists Directory published online by Journalism++, we try to answer these 2 questions through a data-driven way.</p>
               </div>
           	</div>
           </div>
@@ -104,27 +101,73 @@
   </section>
   <!-- END section -->
 
-  <section class="pb_sm_py_cover cover-bg-black cover-bg-opacity-4" style="background-image: url(assets/images/timg.jpg); height: 750px;">
+  <section class="pb_section pb_section_v1" id="section-programming">
     <div class="container">
-
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="heading mb-3 align-items-center">Jamal Khashoggi's death</h2>
-          <p class="sub-heading mb-5 pb_color-light-opacity-8" style="text-align:left"><br>On 2 October, Jamal Khashoggi, a
-            well-known Saudi journalist, entered into the country's consulate in Istanbul, where he was murdered. The
-            gruesome and dramatic killing of the journalist has captivated media outlets around the world.
-            <br><br>
-            Bearing in mind that numerous journalists have been killed or imprisoned whose stories never captured the
-            press’s attention, our team was motivated to begin our “data adventure” from the list of <strong>1331
-              journalists killed</strong> (Motive confirmed) during the period between 1992 to 2018 on the website of
-            Committee of Protect Journalists.
-          </p>
-
-          <!-- <p><a href="#section-contact" role="button" class="btn smoothscroll pb_outline-light p-3 rounded-0 pb_font-13 pb_letter-spacing-2">Get
-              Started</a></p> -->
+      <div class="row justify-content-md-center">
+        <div class="col-lg-5 pr-md-5 pr-sm-0">
+          <h2 class="mt-0 heading-border-top mb-3 font-weight-normal">Does Programming Matter?</h2><br>
+          <p>Here is the comparison between the google trends of the concepts of data journalism and the GitHub contributions changed from 2008 of the data journalists living in the 5 most active countries in the data journalism industry. </p>
+        </div>
+        <div class="col-lg-7">
+          <div class="images">
+            <br><img class="img1 img-fluid" src="assets/images/1-programing&trends.png">
+          </div>
         </div>
       </div>
-
+      <div class="row">
+	    <div class="col-lg-12">
+	      <br><br>
+		  <p> It’s impressive that many of the peaks of the two charts share the same time points. Since the GitHub contribution represents the times that one uploads his/her programming work, what is the relationship between programming and data journalism, and whether programming is a key skill for a data journalist? This kind of trend will have a certain reference and instruction function for potential data journalists. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END section -->
+  
+  <section class="pb_sm_py_cover bg-light" id="section-x">
+    <div class="container">
+      <div class="row justify-content-md-center mb-5">
+          <div class="col-lg-10">
+            <h2 class="mt-0 heading-border-top font-weight-normal text-center" style="color: black">The Relationship between Programming and Data Journalism</h2>
+            <p style="text-align:left">After crawling over 300,000 pieces of data written by journalists and reporters from different countries around the world through Github, we have classified their data according to different countries and regions, and calculated their contribution to Github, so as to obtain the total number of data news of a country or region on Github.
+            </p>
+          </div>
+        </div>
+    </div>
+    <div class="col-lg-12 col-md-12">
+      <div class="row justify-content-md-center col-lg-6 col-md-12" style="float:right">
+		 <iframe src="https://plot.ly/~FLYSTEPHEN/49.embed" frameborder='0' allowfullscreen width="560" height="400">
+		 </iframe>
+      </div>
+      <div class="row justify-content-md-center col-lg-6 col-md-12 ">
+         <iframe src="https://plot.ly/~FLYSTEPHEN/11.embed" frameborder='0' allowfullscreen width="560" height="400">
+         </iframe>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-md-center mb-5">
+          <div class="col-lg-10">
+            <p style="text-align:left">From the left picture, the deeper the blue colour means the more data news contributed on Github by this region. Thus, we can clearly see that the United States is the country with the largest contribution, and European countries have also made a lot of contribution. However, when we look into the per capita contribution, we can speculate that the average level of American data journalists's programming engagement is relatively lower, which is a study-worthy phenomenon.</p>
+          </div>
+        </div>
+    </div>
+  </section>
+  <!-- END section -->
+  
+  <section class="pb_sm_py_cover cover-bg-black cover-bg-opacity-8" style="background-image: url(assets/images/2-education.jpg);" id="section-education">
+    <div class="container">
+      <div class="row justify-content-md-cente">
+        <h2 class="heading mb-3 align-items-center">Jamal Khashoggi's death</h2>
+        <div class="col-lg-6 pr-md-6 pr-sm-0">
+          <p class="mb-5 pb_color-light-opacity-8" style="text-align:left"><br>The Irish data scientist Behahrh Heravi has made a visual analysis of these educational institutions providing data-related journalism programs by region through the statistics of 219 objects around the world. In terms of popularization and promotion of data journalism education, the United States is still in a leading position. We believe these conclusions can support the reason why the U.S. data news industry is also leading the way in the world. Therefore, we decided to study the situation of the United States in the field of data news in depth.</p>
+        </div>
+		<div class="col-lg-6">
+		  <br><iframe width="100%" height="300" src="https://bahareh.carto.com/builder/d6e0f094-95b8-41e4-a96f-4bb7d6926619/embed" frameborder="0" allowfullscreen style="float"></iframe>
+		</div>
+     	<div class="row justify-content-md-cente">
+      	  <p><br><a href="javascript:void(0);" onclick="window.open(href='https://medium.com/ucd-ischool/where-in-the-world-can-i-study-data-journalism-44c006e55ea5')" target="_blank" role="button" class="btn pb_outline-light p-3 rounded-0 pb_font-13 pb_letter-spacing-2">Resource</a></p> 
+      	</div>
+      </div>
     </div>
   </section>
   <!-- END section -->
@@ -243,69 +286,9 @@
 
   </section>
   <!-- END section -->
-  
-  <section class="pb_section pb_section_v1" data-section="about" id="section-war-peace">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-5 pr-md-5 pr-sm-0">
-          <h2 class="mt-0 heading-border-top mb-3 font-weight-normal">War and “Peace”</h2><br>
-          <p>When it comes to the most threatening situations a journalist could be placed in, war may be the first
-            response for everyone. On a global scale, Iraq and Syrian are the two most dangerous countries for
-            journalists, in terms of the total number of journalists killed from 1992 to 2018. </p>
-          <br>
-          <p>However, what most people overlooked is the silence war that happening around the global. From 2000 to
-            2017, there are 2953 journalists imprisoned world-widely. On the same time scale, the number of journalists
-            imprisoned is over three times more than journalists being killed.
-
-          </p>
-
-        </div>
-        <div class="col-lg-7">
-          <div class="images">
-
-            <img class="img1 img-fluid" src="assets/images/peace.jpg" width="400px" height="400px">
-            <img class="img2 img-fluid" src="assets/images/war.jpg" width="350px" height="350px">
-
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-  <!-- END section -->
-
-  <section class="pb_sm_py_cover  cover-bg-opacity-4">
-    <div class="container">
-      <!-- <div class="row">
-        <div class="col-md-12 align-items-center">
-          <h2 class="heading mb-3">Journalists Imprisoned and killed</h2>
-          <p class="sub-heading mb-5 pb_color-light-opacity-8">
-              In areas where there are active conflicts or endemic crime, the threat to journalists is well informed. Which other invisible yet ubiquitous factors have an impact on the deaths of journalists?  As a profession of which responsibility is to respect for truth and for the right of the public to the truth, being a journalist is inextricably bound to the degree of freedom in the specific country.
-         
-            </p>
-        </div>
-      </div> -->
-      <div class="row justify-content-md-center mb-5">
-          <div class="col-lg-10">
-            <h2 class="mt-0 heading-border-top font-weight-normal text-center" style="color: black">Journalists Imprisoned and killed</h2>
-            <p style="text-align:left"> <br> In areas where there are active conflicts or endemic crime, the threat to journalists is well informed. Which other invisible yet ubiquitous factors have an impact on the deaths of journalists?  As a profession of which responsibility is to respect for truth and for the right of the public to the truth, being a journalist is inextricably bound to the degree of freedom in the specific country.
-         
-            </p>
-          </div>
-        </div>
-    </div>
-    <div class="col-lg-12 col-md-12">
-      <div class="col-lg-6 col-md-12" style="float:right"> <object data="assets/images/Number of Journalists Killed in Different Countries.svg"
-          type="image/svg+xml" id="mySVG" style="width:100%; height:100%; "></object>
-      </div>
-      <div class="col-lg-6 col-md-12"><object data="assets/images/Number of Journalists Imprisoned in Different Countries (1).svg"
-          type="image/svg+xml" id="mySVG" style="width:100%; height:100%; "></object>
-      </div>
+ 
 
 
-    </div>
-  </section>
-  <!-- END section -->
   
   <section class="pb_section bg-light">
     <div class="container">
