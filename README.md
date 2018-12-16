@@ -18,7 +18,7 @@ sourcing the map of data journalism programs of global universities and educatio
 
 **Team Members**
 
-*   Gao Chao [@FLYSTEPHEN](https://github.com/FLYSTEPHEN)
+*   Gao Chao, [@FLYSTEPHEN](https://github.com/FLYSTEPHEN)
 *   Li Chenxi, [@ConnorLi96](https://github.com/ConnorLi96)
 *   Xu Haotian, [@coolxu8888](https://github.com/coolxu8888)
 *   Zeng Xinjie, [@zacharyzeng](https://github.com/zacharyzeng)
