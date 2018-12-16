@@ -1,4 +1,7 @@
-# Web of the final project of COMM 7080
+# The webpage of the final project of COMM 7780 HONG KONG BAPTIST UNIVERSITY
+- Please browse the page [here](https://flystephen.github.io/DJ-insight/)
+- This is the webpage of our COMM 7780 HONG KONG BAPTIST UNIVERSITY course([2018 Course Openbook]( https://github.com/hupili/python-for-data-and-media-communication-gitbook/)). The repo of dataset is [here](https://github.com/ConnorLi96/survival-guide-of-data-journalist).
+
 **References**
 
 - [Online News Association](https://careers.journalists.org/jobs/?keywords=data+OR+journalist&page=1)  
@@ -15,7 +18,7 @@ sourcing the map of data journalism programs of global universities and educatio
 
 **Team Members**
 
-*   Gao Chao [@FLYSTEPHEN](https://github.com/FLYSTEPHEN), 
+*   Gao Chao [@FLYSTEPHEN](https://github.com/FLYSTEPHEN)
 *   Li Chenxi, [@ConnorLi96](https://github.com/ConnorLi96)
 *   Xu Haotian, [@coolxu8888](https://github.com/coolxu8888)
 *   Zeng Xinjie, [@zacharyzeng](https://github.com/zacharyzeng)
@@ -23,4 +26,3 @@ sourcing the map of data journalism programs of global universities and educatio
 **Acknowledgements**
 
 *   Specially thank [Mr. HU, Pili](https://github.com/hupili) for his instructions and [ivyWANG958](https://github.com/ivyWANG958) with her template.
-*   COMM 7280 HONG KONG BAPTIST UNIVERSITY [2018 Course Openbook]( https://github.com/hupili/python-for-data-and-media-communication-gitbook/)
