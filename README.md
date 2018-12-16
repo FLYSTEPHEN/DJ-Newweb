@@ -1,6 +1,6 @@
-# The webpage of the final project of COMM 7780 HONG KONG BAPTIST UNIVERSITY
-- Please browse the page [here](https://flystephen.github.io/DJ-insight/)
-- This is the webpage of our COMM 7780 HONG KONG BAPTIST UNIVERSITY course([2018 Course Openbook]( https://github.com/hupili/python-for-data-and-media-communication-gitbook/)). The repo of dataset is [here](https://github.com/ConnorLi96/survival-guide-of-data-journalist).
+# The Survival Guide for Data Journalists
+- **Please browse the page [here](https://flystephen.github.io/DJ-insight/)**. This is the webpage of our final project of Comm 7780 HKBU, 2018. 
+- The repo of dataset is [here](https://github.com/ConnorLi96/survival-guide-of-data-journalist).
 
 **References**
 
